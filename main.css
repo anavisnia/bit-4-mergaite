@@ -1,6 +1,6 @@
 body > div {
   width: 1000px;
-  margin-left: calc((100% - 1000px) / 2); 
+  margin-left: calc((100% - 1000px) / 2);
   color: #9E9E9E;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
