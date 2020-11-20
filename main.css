@@ -96,3 +96,36 @@ main > img {
     width: 100%;
   }
 }
+/* hamburger menu START */
+@media (max-width: 600px) {
+  body > div {
+    width: 100%;
+    margin-left: 0;
+  }
+  header > img {
+    /* display: inline-block; */
+    width: 50px;
+    /* float: left; */
+  }
+  nav {
+    /* display: inline-block; */
+    /* float: right; */
+  }
+  main {
+    margin-top: 50px;
+    /* display: inline-block;
+    width: 100%; */
+  }
+  main > div {
+    margin-top: 0px;
+    /* display: inline-block; */
+    /* float: left; */
+    /* width: 100%; */
+  }
+  main > img {
+    /* display: inline-block; */
+    /* float: right; */
+    /* width: 100%; */
+  }
+}
+/* hamburger menu END */
