@@ -62,5 +62,37 @@ main > img {
   width: 45%;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
+  body > div {
+    width: 100%;
+    margin-left: 0;
+  }
+  header {
+    display: inline-block;
+  }
+  header > img {
+    display: inline-block;
+    width: 50px;
+    float: left;
+  }
+  nav {
+    display: inline-block;
+    float: right;
+  }
+  main {
+    margin-top: 100px;
+    display: inline-block;
+    width: 100%;
+  }
+  main > div {
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+  }
+  main > img {
+    display: inline-block;
+    float: right;
+    width: 100%;
+  }
 }
